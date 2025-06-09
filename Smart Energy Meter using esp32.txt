@@ -12,9 +12,9 @@ EnergyMonitor emon;
 #define currCalibration 0.50
  
 BlynkTimer timer;
-char auth[] = "**********************";
-char ssid[] = "**********************";
-char pass[] = "**********************";
+char auth[] = "";
+char ssid[] = "";
+char pass[] = "";
  
 float kWh = 0;
 unsigned long lastmillis = millis();
